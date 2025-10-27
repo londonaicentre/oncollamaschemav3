@@ -1,6 +1,9 @@
 ## OncoLlama v3 Schema
 
-This repo contains the pydantic schema that defines outputs for v3 of the OncoLlama cancer data extraction LLM.
+This repo contains:
+1. The pydantic schema that defines outputs for v3 of the OncoLlama cancer data extraction LLM.
+2. Simple validation functions
+3. Default prompt against which the OncoLlama v3 model has been trained
 
 ### Field Naming Conventions
 

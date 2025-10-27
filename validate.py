@@ -1,4 +1,24 @@
-from oncollamaschemav3 import OncoLlamaModel
+import json
+from oncollamaschemav3.oncollamaschemav3 import OncoLlamaModel
+from pydantic import ValidationError
+
+"""
+validate.py - simple functions to validate schema and json 
+
+Run in CLI to validate directly schema
+"""
+
+def validate_json(json_str):
+    try:
+        parsed = json.loads(json_str)
+        OncoLlamaModel(**parsed)
+        return True, "Valid", parsed
+    except json.JSONDecodeError as e:
+        return False, f"JSON Parse Error: {e}", None
+    except ValidationError as e:
+        return False, f"Schema Validation Error: {e}", None
+    except Exception as e:
+        return False, f"Validation Error: {e}", None
 
 def validate_schema():
     try:
