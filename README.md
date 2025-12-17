@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> This repository has been moved to a centralised location with other AIC Schemas for language model related outputs.
+>
+> Find the Oncollama Repository [here](https://github.com/londonaicentre/schema-llama/tree/main/assets/oncollama)
+
+---------------
+
 ## OncoLlama v3 Schema
 
 This repo contains:
