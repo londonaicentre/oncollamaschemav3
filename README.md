@@ -1,7 +1,7 @@
 > [!IMPORTANT]
 > This repository has been moved to a centralised location with other AIC Schemas for language model related outputs.
 >
-> Find the Oncollama Repository [here](https://github.com/londonaicentre/schema-llama/tree/main/assets/oncollama)
+> Find the Oncollama schema [here](https://pypi.org/project/londonaicentre-oncoschema/)
 
 ---------------
 
